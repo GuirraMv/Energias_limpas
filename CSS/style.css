@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0%;
     padding: 0%;
     font-family: 'Mukta', sans-serif;
     font-size: 18px;
@@ -88,14 +88,14 @@ MENU
     margin: 0 5px 0 5px;
 }
 
+.menu li {
+    font-weight: lighter;
+}
+
 .menu a {
     text-decoration: none;
     color: gold;
     text-align: center;
-}
-
-.menu li {
-    font-weight: lighter;
 }
 
 .menu a.selected {
@@ -111,7 +111,6 @@ BOTÕES
     cursor: pointer;
 }
 .button1:hover {
-    background-color: black;
     color: #adff2f;
     transition-duration: 0.5s;
 }
@@ -120,8 +119,7 @@ CENTRO
 */
 .container {
     background-color: #F7F2F2;
-    width: 100%;
-    height: absolute;
+    padding: 6px;
 }
 
 .container h3 {
@@ -138,10 +136,14 @@ CENTRO
     font-weight: bold;
 }
 
-.container li {
-    padding: 0 10px;
+.container ul {
+    display: flex;
+    list-style: none;
+}
+
+.container li { 
+    padding: 0 10px 0 0;
     font-weight: bolder;
-    display: inline-block;
     color: #8E1E27;
 }
 
@@ -156,14 +158,14 @@ CENTRO
 /*
  CONTINUAÇÃO DO TEXTO
    */
-.wrapper a {
+.container a {
     text-decoration: none;
     color: #000896;
 }
 /*
    TABELA
    */
-table, th, td {
+table, td {
     border-spacing: 0px;
     width: 50%;
     text-align: center;
@@ -172,6 +174,15 @@ table, th, td {
     color: #C73E04;
     font-weight: bold;     
 }
+
+.titletd {
+    color: #4D780C;
+}
+
+.texttd {
+    color: #000896;
+}
+
 /*
  FONTES DAS TABELAS
  */
@@ -180,7 +191,7 @@ table, th, td {
     text-align: center;
     color: #010666;
     font-size: 18px;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 .fonte a {
@@ -189,19 +200,20 @@ table, th, td {
 /*
     FOOTER
 */
-footer {
-    background-color: black;
-    padding: 40px;
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    color: gold; 
+    width: 100%;
+    background-color: black;
+    color: gold;
 }
 
-footer p {
-    font-size: 50px;
+.rodape p {
+    font-size: 40px;
 }
-/*
-   FIM DA PÁGINA
-   */
+
 /*
   Tipos de energia
 */
