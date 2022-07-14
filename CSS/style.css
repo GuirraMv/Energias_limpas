@@ -34,6 +34,11 @@ header {
     align-items: center;
 }
 
+.menu-desktop ul {
+    display: flex;
+    list-style: none;
+}
+
 .menu-desktop li {
     padding: 0 10px;
     font-weight: lighter;
@@ -70,32 +75,33 @@ BANNER
 /*
 MENU
 */
-nav a {
+.menu {
+    display: flex;
+    width: 100%;
+    background-color: black;    
+}
+
+.menu nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 5px 0 5px;
+}
+
+.menu a {
     text-decoration: none;
     color: gold;
-    background-color: black;
-    display: inline-block;
-    position: relative;
     text-align: center;
 }
 
-nav li {
-    padding: 0 150px;
+.menu li {
     font-weight: lighter;
-    display: inline-block;
-    background-color: black;
-    position: static;
 }
 
-nav li.selected {
+.menu a.selected {
     font-weight: bold;
 }
 
-nav {
-    background-color: black;
-    position: relative;
-    
-}
 /*
 BOTÕES
 */
@@ -107,39 +113,32 @@ BOTÕES
 .button1:hover {
     background-color: black;
     color: #adff2f;
-    font-weight: 100;
     transition-duration: 0.5s;
 }
 /*
 CENTRO
 */
-main {
+.container {
     background-color: #F7F2F2;
     width: 100%;
     height: absolute;
 }
 
-h3 {
+.container h3 {
     color: #4D780C;
-    font-family: 'Cairo', sans-serif;
-    border: none;
     font-weight: bold;
     text-align: center;
     font-size: 25px;
 }
 
-main p{
+.container p{
     color: #000896;
     margin: auto;
-    right: 0%;
-    left: 0%;
-    top: 0%;
     text-align: justify;
-    border: 5px solid transparent;
     font-weight: bold;
 }
 
-main li {
+.container li {
     padding: 0 10px;
     font-weight: bolder;
     display: inline-block;
@@ -199,8 +198,6 @@ footer {
 
 footer p {
     font-size: 50px;
-    font-family: 'Cairo', sans-serif;
-    
 }
 /*
    FIM DA PÁGINA
@@ -221,7 +218,6 @@ footer p {
 }
 
 h4 {
-    font-family: 'Cairo', sans-serif;
     color: #4D780C;
     font-size: 20px;
     border: none;
