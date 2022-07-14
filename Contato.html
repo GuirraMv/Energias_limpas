@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="IMG/recycling-symbol.png" rel="icon">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap');
+            </style>
+        <title>Energias Limpas</title>
+    </head>
+    <body> <!-- CABEÇALHO -->
+        <header>
+        <div class="container">
+            <div class="logo">
+                <h2>  <img style="width: 90px" src="IMG/Simbolo-COR.png"> Fontes de Energia Limpa</h2>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li class="#"><a href="Index.html">Início</a></li>
+                    <li class="#"><a href="Sobre.html">Sobre</a></li>
+                    <li class="selected"><a href="Contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+        </div>
+        </header>
+        <!-- BANNER -->
+        <section class="main-bg">
+        </section>
+        <!-- MENU-->
+        <nav> 
+            <li> <a href="Index.html" class="button1">O que é energia limpa?</a> </li> 
+            <li><a href="Tipos_de_energia.html" class="button1">Tipos de energia limpa</a> </li>
+            <li><a href="Futuro_da_energia.html" class="button1">O futuro da energia elétrica</a> </li>  
+        </nav>
+        <!--CENTRO-->
+        <main>
+            <div class="wrapper">
+            <article>
+        <h4>Fale Conosco!</h4>
+        <p>Está gostando do site? Tem sugestões? Críticas? Então mande-nos umas mensagem, e nos conte sua experiência em nosso site!</p>
+        <p>Aqui em baixo está uma tabela, onde preenchendo as informações corretamente sua mensagem será enviada para nós!</p>
+        <!--TABELA-->
+            <form action="destino-dados.php" method="POST">
+                <label for="txt-nome">Nome:</label>
+                <input type="text" id="txt-nome" name="nome" placeholder="Digite seu nome...">
+                <label for="txt-mail">E-mail:</label>
+                <input type="text" id="txt-mail" name="mail" placeholder="seuemail@gmail.com">
+                <label for="txt-tel">Telefone (OPCIONAL):</label>
+                <input type="text" id="txt-tel" name="tel" placeholder="DDD 123456789">
+
+                <br>
+                <h5>Assunto:</h5>
+                <input type="radio" id="suges" name="sugestao">
+                <label for="suges">Sugestão</label>
+                <input type="radio" id="elogio" name="elogio">
+                <label for="elogio">Elogios</label>
+                <input type="radio" id="critica" name="critica">
+                <label for="critica">Críticas</label>
+                
+                <br>
+                <label for="tx-msg">Mensagem:</label><br>
+                <textarea name="msg" id="tx-msg"></textarea>
+
+                <br>
+                <input type="submit" value="Enviar">
+            </form>              
+        
+        </article>
+        <p>Agradecemos a sua mensagem! :)</p>
+        </div>
+    </main>   
+        <!--Rodapé-->
+           <footer>
+            <p>  <img style="width: 146px" src="IMG/Simbolo-COR.png">Energias Limpas </p>
+        </footer>
+        <!--FIM DA PÁGINA CONTATO   -->
+    </body>
+</html>
