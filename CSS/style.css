@@ -1,7 +1,6 @@
 * {
-    margin: 0%;
+    margin: 0;
     padding: 0%;
-    box-sizing: border-box;
     font-family: 'Mukta', sans-serif;
     font-size: 18px;
 }
@@ -11,12 +10,10 @@ CABEÇALHO
 */
 
 header {
-    background: black;
-    color: black;
-    margin: 0px;
-    padding-bottom: 60px;
+    background-color: black;
     top: 0px;
     width: 100%;
+    height: 55px;
 }
 
 .logo {
@@ -24,41 +21,41 @@ header {
 }
 
 .logo h2 {
-    font-family: 'Cairo', sans-serif;
     color: gold;
     font-size: 25px;
-    position: static;
-    float: left;
+    display: flex;
+    align-items: center;
 }
 
-nav.menu-desktop {
-    float: right;
+.menu-desktop {
+    display: flex;
+    justify-content: flex-end;
+    height: 55px;
+    align-items: center;
 }
 
-nav.menu-desktop ul {
-    position: static;
-    top: 8px;
-    padding-top: 29px;
-}
-
-nav.menu-desktop li {
+.menu-desktop li {
     padding: 0 10px;
     font-weight: lighter;
-    display: inline-block;
 }
 
-nav.menu-desktop a {
+.menu-desktop a {
     text-decoration: none;
     color: gold;
 }
 
-nav.menu-desktop li.selected {
+.menu-desktop li.selected {
     font-weight: bold;
 }
 
-nav.menu-desktop a:hover {
+.menu-desktop a:hover {
     text-decoration: underline;
 }
+
+.menu-desktop nav {
+    display: flex;
+}
+
 /*
 BANNER
 */
