@@ -16,6 +16,10 @@ header {
     height: 55px;
 }
 
+body {
+    background-color: #F7F2F2;
+}
+
 .logo {
     float: left;
 }
@@ -139,6 +143,7 @@ CENTRO
 .container ul {
     display: flex;
     list-style: none;
+    justify-content: center;
 }
 
 .container li { 
@@ -422,4 +427,37 @@ h4 {
     height: 500px;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+/*SOBRE*/
+.assuntotitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.assunto {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    padding: 10px;
+}
+
+.msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    height: 120px;
+    width: 400px;
+}
+
+.btninput {
+    height: 40px;
+    width: 87px;
 }
