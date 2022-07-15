@@ -423,10 +423,11 @@ h4 {
 .iter {
     background-image: url(../IMG/iter\ reator.jpg);
     background-position: center;
-    width: auto;
+    width: 100%;
     height: 500px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
 
 /*SOBRE*/
