@@ -1,63 +1,86 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UFT-8">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="IMG/recycling-symbol.png" rel="icon">
+  <head>
+    <meta charset="UFT-8" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link href="IMG/recycling-symbol.png" rel="icon" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;400&display=swap");
     </style>
     <title>Energias Limpas</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <h2><img style="width: 90px" src="IMG/Simbolo-COR.png">Energias Limpas</h2>
-        </div>
-        <div class="menu-desktop">
-            <nav>
-                <ul>
-                    <li class="#"><a href="Index.html">Início</a></li>
-                    <li class="#"><a href="Sobre.html">Sobre</a></li>
-                    <li class="selected"><a href="Contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="logo">
+        <h2>
+          <img style="width: 90px" src="IMG/Simbolo-COR.png" />Energias Limpas
+        </h2>
+      </div>
+      <div class="menu-desktop">
+        <nav>
+          <ul>
+            <li class="#"><a href="index.html">Início</a></li>
+            <li class="#"><a href="Sobre.html">Sobre</a></li>
+            <li class="selected"><a href="Contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main class="container">
-        <h4>Fale Conosco!</h4>
-        <p>Está gostando do site? Tem sugestões? Críticas? Então mande-nos umas mensagem, e nos conte sua experiência em nosso site!</p>
-        <p>Aqui em baixo está uma tabela, onde preenchendo as informações corretamente sua mensagem será enviada para nós!</p>
-        <!--TABELA-->
-        <form action="destino-dados.php" method="POST">
-            <label for="txt-nome">Nome:</label>
-            <input type="text" id="txt-nome" name="nome" placeholder="Digite seu nome...">
-            <label for="txt-mail">E-mail:</label>
-            <input type="text" id="txt-mail" name="mail" placeholder="seuemail@gmail.com">
-            <label for="txt-tel">Telefone (OPCIONAL):</label>
-            <input type="text" id="txt-tel" name="tel" placeholder="DDD 123456789">
-            <br>
-            
-            <h5 class="assuntotitle">Assunto:</h5>
-            <div class="assunto">
-                <input type="radio" id="suges" name="sugestao">
-                <label for="suges">Sugestão</label>
-                <input type="radio" id="elogio" name="elogio">
-                <label for="elogio">Elogios</label>
-                <input type="radio" id="critica" name="critica">
-                <label for="critica">Críticas</label>
-                <br>
-            </div>
-            
-            <div class="msg">
-                <h5>Mensagem:</h5>
-                <textarea name="msg" id="tx-msg"></textarea>
-                <br>
-                <input type="submit" value="Enviar" class="btninput">
-            </div>
-        </form>              
-        <p class="msg">Agradecemos a sua mensagem! :)</p>
+      <h4>Fale Conosco!</h4>
+      <p>
+        Está gostando do site? Tem sugestões? Críticas? Então mande-nos umas
+        mensagem, e nos conte sua experiência em nosso site!
+      </p>
+      <p>
+        Aqui em baixo está uma tabela, onde preenchendo as informações
+        corretamente sua mensagem será enviada para nós!
+      </p>
+      <!--TABELA-->
+      <form action="destino-dados.php" method="POST">
+        <label for="txt-nome">Nome:</label>
+        <input
+          type="text"
+          id="txt-nome"
+          name="nome"
+          placeholder="Digite seu nome..."
+        />
+        <label for="txt-mail">E-mail:</label>
+        <input
+          type="text"
+          id="txt-mail"
+          name="mail"
+          placeholder="seuemail@gmail.com"
+        />
+        <label for="txt-tel">Telefone (OPCIONAL):</label>
+        <input
+          type="text"
+          id="txt-tel"
+          name="tel"
+          placeholder="DDD 123456789"
+        />
+        <br />
+
+        <h5 class="assuntotitle">Assunto:</h5>
+        <div class="assunto">
+          <input type="radio" id="suges" name="sugestao" />
+          <label for="suges">Sugestão</label>
+          <input type="radio" id="elogio" name="elogio" />
+          <label for="elogio">Elogios</label>
+          <input type="radio" id="critica" name="critica" />
+          <label for="critica">Críticas</label>
+          <br />
+        </div>
+
+        <div class="msg">
+          <h5>Mensagem:</h5>
+          <textarea name="msg" id="tx-msg"></textarea>
+          <br />
+          <input type="submit" value="Enviar" class="btninput" />
+        </div>
+      </form>
+      <p class="msg">Agradecemos a sua mensagem! :)</p>
     </main>
-</body>
+  </body>
 </html>

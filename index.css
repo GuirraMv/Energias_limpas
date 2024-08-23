@@ -71,7 +71,7 @@ BANNER
 .main-bg {
     width: 100%;
     height: 450px;
-    background: url("../IMG/sky-field-wind-environment-feed-machine-638728-pxhere.com.jpg");
+    background: url("./IMG/sky-field-wind-environment-feed-machine-638728-pxhere.com.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -155,7 +155,7 @@ CENTRO
 .IMG {
     width: auto;
     height: 500px;
-    background: url(../IMG/Fábrica_Soltando_Fumaça.jpg);
+    background: url("./IMG/Fábrica_Soltando_Fumaça.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -226,7 +226,7 @@ table, td {
   IMAGEM ENERGIA-SOLAR
 */  
 .Solar {
-    background: url(../IMG/Casa_com_placa_solar.jpg);
+    background: url("./IMG/Casa_com_placa_solar.jpg");
     background-position: center;
     width: auto;
     height: 500px;
@@ -255,7 +255,7 @@ h4 {
 */
 
 .Fotovolt {
-    background-image: url(../IMG/esquema-sistema-solar-fotovoltaico.jpg);
+    background-image: url("./IMG/esquema-sistema-solar-fotovoltaico.jpg");
     background-position: center;
     width: auto;
     height: 500px;
@@ -272,7 +272,7 @@ h4 {
    IMAGEM ENERGIA EÓLICA
 */
 .Eólica {
-    background-image: url(../IMG/paisagem_catavento.jpg);
+    background-image: url("./IMG/paisagem_catavento.jpg");
     background-position: center;
     width: auto;
     height: 500px;
@@ -285,7 +285,7 @@ h4 {
 */
 
 .Turbina {
-    background-image: url(../IMG/funcionamento_turbina_eólica.svg);
+    background-image: url("./IMG/funcionamento_turbina_eólica.svg");
     background-position: center;
     width: auto;
     height: 500px;
@@ -298,7 +298,7 @@ h4 {
 */
 
 .Hidra {
-    background-image: url(../IMG/landscape-sea-water-pier-river-environment-696594-pxhere.com.jpg);
+    background-image: url("./IMG/landscape-sea-water-pier-river-environment-696594-pxhere.com.jpg");
     background-position: center;
     width: auto;
     height: 500px;
@@ -311,7 +311,7 @@ h4 {
 */
 
 .Hidraesquema {
-    background-image: url(../IMG/Hydroelectric_dam.png);
+    background-image: url("./IMG/Hydroelectric_dam.png");
     background-position: center;
     width: auto;
     height: 500px;
@@ -324,7 +324,7 @@ h4 {
 */
 
 .bio {
-    background-image: url(../IMG/Biomassa.jpg);
+    background-image: url("./IMG/Biomassa.jpg");
     background-position: center;
     width: auto;
     height: 500px;
@@ -337,7 +337,7 @@ h4 {
 */
 
 .geo {
-    background-image: url(../IMG/steam-vehicle-iceland-energy-power-plant-geothermal-536258-pxhere.com.jpg);
+    background-image: url("./IMG/steam-vehicle-iceland-energy-power-plant-geothermal-536258-pxhere.com.jpg");
     background-position: center;
     width: auto;
     height: 500px;
@@ -349,7 +349,7 @@ h4 {
   Funcionamento usina geotérmica
   */
 .geofuncionamento {
-    background-image: url(../IMG/funcionamento_geotérmica.jpg);
+    background-image: url("./IMG/funcionamento_geotérmica.jpg");
     background-position: center;
     width: auto;
     height: 500px;
@@ -362,7 +362,7 @@ h4 {
 */
 
 .mare {
-    background-image: url(../IMG/energia-maremotriz-1.jpg);
+    background-image: url("./IMG/energia-maremotriz-1.jpg");
     background-position: center;
     width: auto;
     height: 500px;
@@ -375,7 +375,7 @@ h4 {
 */
 
 .mareusina {
-    background-image: url(../IMG/Funcionamento_energiaondas.png);
+    background-image: url("./IMG/Funcionamento_energiaondas.png");
     background-position: center;
     width: auto;
     height: 500px;
@@ -391,7 +391,7 @@ h4 {
 */
 
 .nuck {
-    background-image: url(../IMG/usina_chernobyl.jpg);
+    background-image: url("./IMG/usina_chernobyl.jpg");
     background-position: center;
     width: auto;
     height: 500px;
@@ -412,7 +412,7 @@ h4 {
 }
 
 .tokamak {
-    background-image: url(../IMG/Reator\ fusão.jpg);
+    background-image: url("./IMG/Reator fusão.jpg");
     background-position: center;
     width: auto;
     height: 500px;
@@ -421,7 +421,7 @@ h4 {
 }
 
 .iter {
-    background-image: url(../IMG/iter\ reator.jpg);
+    background-image: url("../IMG/iter reator.jpg");
     background-position: center;
     width: 100%;
     height: 500px;
